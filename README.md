@@ -1,24 +1,8 @@
 # Foodie
 
-I am just a `bundle gem` practice from https://github.com/radar/guides/blob/master/gem-development.md
+  This is just a `bundle gem` practice from https://github.com/radar/guides/blob/master/gem-development.md
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'foodie'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install foodie
-
-## Usage
-
-TODO: Write usage instructions here
+  original source code is here: http://github.com/radar/guides/tree/master/gem-development/foodie
 
 ## Contributing
 

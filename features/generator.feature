@@ -6,8 +6,8 @@ Feature: Generating things
   Scenario: Recipes
     When I run "foodie recipe dinner steak"
     Then the following files should exist:
-      | tmp/dinner/steak.txt |
-    Then the file "tmp/dinner/steak.txt" should contain:
+      | dinner/steak.txt |
+    Then the file "dinner/steak.txt" should contain:
       """
       ### Ingredients ###
       Ingredients for delicious steak go here.

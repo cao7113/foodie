@@ -6,11 +6,11 @@ module Foodie::Generators
     argument :name, type: :string
 
     def create_group
-      empty_directory("tmp/#{group}")
+      empty_directory("#{group}")
     end
 
     def copy_recipe
-      template("recipe.txt", "tmp/#{group}/#{name}.txt")
+      template("recipe.txt", "#{group}/#{name}.txt")
     end
 
     def self.source_root
